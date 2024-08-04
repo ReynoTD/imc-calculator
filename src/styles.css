@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800;900&display=swap");
+
+body {
+  font-family: "Nunito", sans-serif;
+  /*background-image: url(https://preview.redd.it/palettes-design-as-wallpaper-at-4k-res-3840-x-2160-minus-v0-0j9zkt17fny91.jpg?width=3841&format=pjpg&auto=webp&s=dff7664eea942f7b3462bbf5b4414cd7c7e4d052);
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;*/
+}
+
+#bmiCalculator {
+  width: 400px;
+  padding: 20px;
+
+  box-shadow: 0px 0px 166px -31px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  margin: 0 auto;
+  text-align: center;
+  background: #f5f3f0;
+  border-radius: 60px;
+}
+
+span {
+  color: #4f7df9;
+}
+
+.weight-input,
+.height-input {
+  margin-bottom: 15px;
+  font-family: "Nunito", sans-serif;
+}
+
+input {
+  width: 90%;
+  margin: 10px 0;
+  padding: 10px;
+  font-family: "Nunito", sans-serif;
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #4f7df9;
+  color: white;
+  border-radius: 12px;
+  cursor: pointer;
+  font-family: "Nunito", sans-serif;
+}
+
+button:hover {
+  background-color: #0044ff;
+}
+
+#imgDiv {
+  height: 0px;
+  border-radius: 15px;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
+}
+
+#result {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#comment {
+  font-size: 18px;
+}
