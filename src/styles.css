@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800;900&display=swap");
 
+* {
+  margin: 0;
+}
+
 body {
   font-family: "Nunito", sans-serif;
   background-image: url(https://preview.redd.it/palettes-design-as-wallpaper-at-4k-res-3840-x-2160-minus-v0-0j9zkt17fny91.jpg?width=3841&format=pjpg&auto=webp&s=dff7664eea942f7b3462bbf5b4414cd7c7e4d052);
@@ -14,7 +18,7 @@ body {
 
   box-shadow: 0px 0px 166px -31px rgba(0, 0, 0, 0.5);
   border-radius: 5px;
-  margin: 0 auto;
+  margin: 10px auto;
   text-align: center;
   background: #f5f3f0;
   border-radius: 60px;
@@ -73,4 +77,11 @@ img {
 
 #comment {
   font-size: 18px;
+}
+
+@media (width <= 500px) {
+  #bmiCalculator {
+    width: 340px;
+    padding: 20px 10px;
+  }
 }
