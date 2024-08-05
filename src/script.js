@@ -29,7 +29,7 @@ function calculateBMI() {
     document.querySelector("#imgDiv").innerHTML = `<img src=
 "fat1.jpg">`;
   } else {
-    status = "Obeso 🐷 <br> Pesas más que el Warzone";
+    status = "Usuario de Arch Linux 🐷 <br> Pesas más que el Warzone bro";
     document.querySelector("#imgDiv").innerHTML = `<img src=
 "fat.jpg">`;
   }
